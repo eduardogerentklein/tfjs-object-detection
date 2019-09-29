@@ -2,7 +2,7 @@
   "name": "tfjs-object-detection",
   "version": "1.0.0",
   "description": "Object Detection (coco-ssd) model that aims to localize and identify multiple objects in a single image",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -32,6 +32,7 @@
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "@tensorflow-models/body-pix": "^1.1.2",
+    "isomorphic-fetch": "^2.2.1",
     "next": "^9.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"

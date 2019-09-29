@@ -1,16 +1,14 @@
 <h1 align="center">Welcome to Object Detection 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/node-%3E%3D11.12.0-blue.svg" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D6.x-blue.svg" />
-  <a href="https://github.com/eduardogerentklein/tfjs-object-detection#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-pink.svg?cacheSeconds=2592000" />
   <a href="https://github.com/eduardogerentklein/tfjs-object-detection/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/eduardogerentklein/tfjs-object-detection/blob/master/LICENSE" target="_blank">
-    <img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache-2.0-yellow.svg" />
+    <img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue" />
+  </a>
+  <a href="https://travis-ci.com/eduardogerentklein/tfjs-object-detection">
+    <img alt="Version" src="https://travis-ci.com/eduardogerentklein/tfjs-object-detection.svg?token=uz2wuFLvdjR3J4MKq2dE&branch=master">
   </a>
 </p>
 
@@ -20,8 +18,13 @@
 
 ## Prerequisites
 
-- node >=11.12.0
-- npm >=6.x
+<p>
+  <img src="https://img.shields.io/badge/node-%3E%3D11.12.0-pink.svg" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/npm-%3E%3D6.x-red.svg" />
+</p>
+  
 
 ## Install
 
