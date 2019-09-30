@@ -1,10 +1,17 @@
-const img = document.getElementById('img');
+//import * as cocoSsd from '@tensorflow-models/coco-ssd';
 
-// Load the model.
-const model = await cocoSsd.load();
+const Api = async () => {
+    const img = document.getElementById('img');
 
-// Classify the image.
-const predictions = await model.detect(img);
+    // Load the model.
+    const model = await cocoSsd.load();
 
-console.log('Predictions: ');
-console.log(predictions);
+    // Classify the image.
+    const predictions = await model.detect(img);
+
+    console.log('Predictions: ');
+    console.log(predictions);
+    return { predictions }
+}
+
+export default Api;

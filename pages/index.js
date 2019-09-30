@@ -1,7 +1,7 @@
 import App from './container/app'
 
-const teste = () => (
+const Index = () => (
     <App />
 )
 
-export default teste;
+export default Index;
